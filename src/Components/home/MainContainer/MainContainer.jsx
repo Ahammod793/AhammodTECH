@@ -49,7 +49,7 @@ export default function MainContainer() {
   return (
     <div className="flex flex-row mx-[7%] gap-4">
       <Categories sortBYCategory={sortBYCategory} />
-      <Cards products={products} />
+      <Cards products={products} key={index}/>
     </div>
   );
 }
