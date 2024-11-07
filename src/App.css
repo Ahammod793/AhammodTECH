@@ -1,0 +1,26 @@
+body, html {
+  font-family: 'Sora', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgba(16, 15, 15, 0.01)
+}.active {
+  background-color:#9538E2;
+  color:white
+}
+
+.Pactive{
+  background-color: white;
+  color:#9538E2 ;
+}
+
+.bg-gray{
+  background-color:aliceblue ;
+  color: #09080F99;
+}
+.bg-gray:hover{
+  background-color: rgb(205, 222, 237);
+}
+.action:active{
+  background-color:#8605ef;
+  color:white
+}
