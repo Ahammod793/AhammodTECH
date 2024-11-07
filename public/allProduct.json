@@ -352,8 +352,8 @@
    
       "id": 1,
       "category": "Laptops",
-      "brand": "Dell",
-      "model": "XPS 13",
+      "product_title": "Dell XPS 13",
+      "product_image":"https://i.ibb.co.com/S77QtCH/download.jpg",
       "description": "A high-performance ultra-thin laptop with a stunning display, built for productivity and portability.",
       "specifications": {
         "processor": "Intel Core i7-1255U",
