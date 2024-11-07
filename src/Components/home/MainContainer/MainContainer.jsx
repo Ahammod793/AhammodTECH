@@ -20,29 +20,22 @@ export default function MainContainer() {
       setProducts(allProducts); 
     } 
     else if (category === "Laptops") {
-      setProducts(allProducts.filter((product) => product.category=== "Laptop"));
+      setProducts(allProducts.filter((product) => product.category == "Laptop"));
     } 
     else if (category === "Phones") {
       setProducts(allProducts.filter((product) => product.category.toLowerCase().includes("phone")));
     }
      else if (category === "Accessories") {
       setProducts(
-        allProducts.filter((product) => product.category === "Accessories")
-      );
+        allProducts.filter((product) => product.category == "Accessories"));
     } 
     else if (category === "Smart Watches") {
-      setProducts(allProducts.filter((product) => product.category === "Watch"));
+      setProducts(allProducts.filter((product) => product.category == "Watch"));
     } 
     else if (category === "Mac Book") {
-      setProducts(
-        allProducts.filter((product) => product.product_title.includes("Mac"))
-      );
-    } else if (category === "Iphone") {
-      setProducts(
-        allProducts.filter((product) =>
-          product.product_title.toLowerCase().includes("iphone")
-        )
-      );
+      setProducts(allProducts.filter((product) => product.category == "Mac"));
+    } else if (category == "Iphone") {
+      setProducts(allProducts.filter((product) => product.category == "iPhone"));
     }
   };
 

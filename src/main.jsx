@@ -13,14 +13,17 @@ import Dashboard from './Components/DashBoard/Dashboard.jsx';
 import Product_details from './Components/home/MainContainer/Procudt-container/Product_details.jsx';
 import Purches from './Components/DashBoard/Purches.jsx';
 import Statisticks from './Components/Statisticks/Statisticks.jsx';
+import Error from './Components/Error.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",
         element: <Home />,
+        errorElement: <Error></Error>,
       },
       {
         path: "product_details/:product_id",
@@ -35,6 +38,7 @@ const router = createBrowserRouter([
       {
         path: "dashboard",
         element: <Dashboard />,
+        errorElement: <Error></Error>,
         children: [
           {
             path: "/dashboard",

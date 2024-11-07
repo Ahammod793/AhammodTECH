@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import '../../../../App.css'
 export default function Categories({ sortBYCategory }) {
   return (
     <div className="w-[15%] pt-1">
@@ -17,7 +18,9 @@ export default function Categories({ sortBYCategory }) {
           Laptops
         </NavLink>
         <NavLink
-          className="bg-gray text-left rounded-3xl px-6 py-3"
+          className='bg-gray text-left rounded-3xl px-6 py-3 '
+          
+
           onClick={() => sortBYCategory("Phones")}
         >
           Phones
